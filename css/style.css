@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background-color: #ececec;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 4px solid red;
+}
+
+nav img {
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+ margin: 0 auto;
+}
+
+
+#sidebar {
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color: black;
+   overflow-x:hidden;
+  padding-top:50px;
+  transition: 1s;
+}
+
+#sidebar a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:#ccc;
+  display:block;
+  transition: 1s;
+}
+
+#sidebar a:hover {
+  color: #fff;
+  font-size: 28px;
+  background-color: red;
+}
+
+#sidebar .close-sidebar{
+  position:absolute;
+  top:0;
+  right:20px;
+  font-size:40px;
+  padding: 0 20px;
+  /*margin-left:50px;*/
+  /*text-align: center;*/
+  color: red;
+}
+
+#sidebar .close-sidebar:hover {
+  font-size: 45px;
+}
+
+
+#main {
+  margin: 0 auto;
+  padding: 100px 20px;
+  overflow:hidden;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center; 
+}
+
+
+.card {
+    box-shadow: 4px 4px 8px 0 #7a7a7a;
+    transition: 0.3s;
+    flex: 2;
+    margin: 0 20px 50px 20px;
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 16px 0 #7a7a7a;
+}
+
+
+.container {
+    /*padding: 0 20px;*/
+    width: 200px;
+    margin: 0 auto;
+}
+
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.recipeImg {
+  border-bottom: 3px solid red;
+ }
+
+
+footer {
+  text-align: center;
+  height: 50px;
+  background-color: black;
+  border-top: 4px solid red;
+  color: white;
+  padding-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.jv {
+ text-align: right;
+ padding-right: 20px
+}
